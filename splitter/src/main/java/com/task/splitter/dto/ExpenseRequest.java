@@ -1,8 +1,10 @@
 package com.task.splitter.dto;
+import java.math.BigDecimal;
 import java.util.List;
-public class ExpenseRequest {
-    public String description;
-    public double totalAmount;
-    public Long paidById;
-    public List<Long> participantIds;
+public record ExpenseRequest(
+        String description,
+        BigDecimal totalAmount,
+        Long paidById,
+        List<Long> participantIds
+) {
 }

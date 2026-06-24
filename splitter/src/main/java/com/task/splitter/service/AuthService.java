@@ -1,6 +1,5 @@
 package com.task.splitter.service;
 
-
 import com.task.splitter.dto.AuthResponse;
 import com.task.splitter.dto.LoginRequest;
 import com.task.splitter.dto.RegisterRequest;
